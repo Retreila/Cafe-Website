@@ -1,11 +1,33 @@
- 
-    .display {
-            display:hover;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:sienna;
+    }
+  li {
+    font-size: 30px;
+  float: left;
+  }
+  .active {
+  background-color: #f8ba63;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(255, 209, 136);
     }
      .left {
            position:absolute;
            left:0;
-           bottom: 172px;;
+           bottom: 112px;;
     }
     .tag {
       background-color:rgb(255, 195, 117);
@@ -33,12 +55,27 @@
     .right {
       position:absolute;
       right: 15px;;
-      bottom: 171px;;
+      bottom: 112px;;
 
     } 
     .address {
       color:rgb(255, 255, 255)!important;
       font-size: 50px;
 
-    }  
-    
+    } 
+    .background_color {
+      color: rgb(255, 238, 194);
+    } 
+
+    .footer {
+      font-size: 30px;
+      position: fixed;
+      left: 50%;
+      bottom: -50px;
+      transform: translate(-50%, -50%);
+      margin: 0 auto;
+
+    }
+    .center {
+      text-align: center;
+    }
