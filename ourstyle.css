@@ -1,40 +1,44 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Cafe Website</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="ourstyle.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <style>
-      body, html {
-      height: 100%;
-      font-family: "Tangerine", serif;
+ 
+    .display {
+            display:hover;
     }
-    .bgimg {
-      background-position: center;
-      background-size: cover;
-      background-image: url("https://modernrestaurantmanagement.com/assets/media/2019/11/Unsplash_Ciqxn7FE4vE-1200x655.jpg");
-      min-height: 75%;
+     .left {
+           position:absolute;
+           left:0;
+           bottom: 172px;;
     }
+    .tag {
+      background-color:rgb(255, 195, 117);
+      color:rgb(81, 31, 8);
+      display:inline-block;
+      padding-left:8px;
+      padding-right:8px;
+      text-align:center;
+      font-size: 50px;
+    }
+    .name {
+      position:absolute;
+      top:50%;
+      left:50%;
+      transform:translate(-50%,-50%);
+      -ms-transform:translate(-50%,-50%);
+      
 
-  </style>  
-</head>
-<body>
-  
-<!-- Header with image -->
-  <header class="bgimg" id="home">
-  <div class="left">
-    <span class="tag">Open from 8am to 9pm</span>
-  </div>
-  <div class="name">
-    <span class="text">Our<br>Cafe</span>
-  </div>
-  <div class="right">
-    <span class="address">ul. Zaborska 141, Kraków</span>
-  </div>
-</header>
+    }    
+    .text {
+      color:rgb(81, 31, 8)!important;
+      font-size:250px;
 
-<!-- Background color -->
-<div class="background_color"></div>
-<!-- Footer -->
+    } 
+    .right {
+      position:absolute;
+      right: 15px;;
+      bottom: 171px;;
+
+    } 
+    .address {
+      color:rgb(255, 255, 255)!important;
+      font-size: 50px;
+
+    }  
     
