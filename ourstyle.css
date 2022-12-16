@@ -9,7 +9,10 @@ body {
       background-image: url("https://capuccinocafe.pl/app/uploads/2022/04/capuccino-cafe_strona-glowna-min-1130x746.jpeg");
       min-height: 75%;
     }
-
-    .menu {
-      display: none;
+     .left {
+           position:absolute;
+           left:0;
+           bottom:0;
+    }
+            
     }
