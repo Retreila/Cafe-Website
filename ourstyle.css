@@ -492,6 +492,8 @@ hr {
 }
 
 .menu-title {
-  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
   font-size: 34px;
 }
