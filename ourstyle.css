@@ -499,13 +499,22 @@ hr {
 }
 
 .menu-sections {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+}
+
+.menu-sections span {
+  display: table-cell;
+  text-align: center;
+}
+.drinks {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 34px;
 }
 
-.drinks {
-  text-align: center;
-  font-size: 34px;
-}
