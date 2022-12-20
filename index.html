@@ -13,29 +13,30 @@
 <body>
   <!-- Nav bar -->
   <div class="row nav-links">
-    <div class="col-4 my-auto">
+    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 my-auto">
       <div class="nav-link"><a class="link active" href="index.html">Home</a></div>
       <div class="nav-link"><a class="link" href="menu.html">Menu</a></div>
       <div class="nav-link"><a class="link" href="contact.html">Contact</a></div>
     </div>
-    <div class="col-4 my-auto">
+    <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 my-auto">
       <p class="cafe-name">Our Cafe</p>
     </div>
-    <div class="col-4 open my-auto">
+    <div class="col-xl-4 col-lg-4 col-12 open my-auto">
       <p class="open-desc">Open all week from 7am to 9pm</p>
     </div>
   </div>
 
+  <!-- Photo-slider -->
   <div id="wrapper" class="wrapper">
     <div id="slides" class="slides" tabindex="1" autofocus="autofocus">
       <figure id="slide1" class="show">
-        <img src="photos/cafe.jpg" width="100%" height="600px" />
+        <img class="slide-photo" src="photos/cafe.jpg" width="100%" height="600px" />
       </figure>
       <figure id="slide2">
-        <img src="photos/coffe.jpg" width="100%" height="600px" />
+        <img class="slide-photo" src="photos/coffe.jpg" width="100%" height="600px" />
       </figure>
       <figure id="slide3">
-        <img src="photos/table.jpg" width="100%" height="600px" />
+        <img class="slide-photo" src="photos/table.jpg" width="100%" height="600px" />
       </figure>
       <div id="prev" class="prev">&laquo;</div>
       <div id="next" class="next">&raquo;</div>
@@ -52,26 +53,59 @@
     </nav>
   </div>
 
-  <!-- Background color -->
-  <div class="background_color"></div>
+  <!-- About Us -->
+  <div>
+    <h2 class="about-header">About our Cafe</h2>
+    <p class="about-details"><b>Our Cafe</b> is an Italian style cafe that serves simple, natural food – including Vegan and Gluten Free options – accompanied by aromatic coffee and delicious tea. Most coffee shops in Poland don’t do much with food and most restaurants don’t worry about coffee. Our Cafe is a hybrid combining a strong coffee culture and a robust food culture under one roof in a welcoming, cozy and comfortable neighborhood café.</p>
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 our-coffee my-auto">
+        <h3 class="our-coffee-header">Our Coffee</h3>
+        <p class="our-coffee-desc">
+          We serve a range of coffees made from the finest coffee beans, roasted in Italy, and our baristas really know their beans. With their superior technical knowledge and a passion for making amazing coffee they will make you the perfect cuppa.
+        </p>
+        <a role="button" href="menu.html" class="btn submit-button">Check our hot drinks</a>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+        <img class="our-photo1" src="photos/cafe-granos.jpg" width="500px" height="300px"/>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12">
+        <img class="our-photo2" src="photos/cupcakes.jpg" width="500px" height="300px"/>
+      </div>
+      <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 our-desserts my-auto">
+        <h3 class="our-coffee-header">Our Desserts</h3>
+        <p class="our-coffee-desc">
+          Our desserts are natural, made with local ingredients, wherever possible, to provide you with fresher, healthier and deliciously tasty meals. We have a well stocked pastry cabinet, our food has an international flavor and we offer gluten free, vegetarian and vegan options.
+        </p>
+        <a role="button" href="menu.html" class="btn submit-button">Check our desserts</a>
+      </div>
+    </div>
+  </div>
 
   <footer>
-    <div class="container">
+    <div class="container footer-container">
         <div class="row">
-            <div class="col-sm-4">
-                <h3 class="company-name">Our Cafe</h3>
+            <div class="footer-det col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+                <h4 class="contact">CONTACT</h4>
+                <p class="footer-contact">ul. Zaborska 141, Kraków</p>
+                <p class="footer-contact">+48 555 666 777</p>
+                <p class="footer-contact">ourcafecfg@gmail.com</p>
             </div>
-            <div class="col-sm-4">
-                <h4 class="contact">ADDRESS</h4>
-                <p>Firefly 44 Street</p>
-                <p>55-555 Poland</p>
-                <p>+48 111 222 333</p>
+            <div class="footer-det col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 my-auto">
+              <h2 class="company-name">Our Cafe</h2>
             </div>
-            <div class="col-sm-4">
-                <h4 class="psocial-media">SOCIAL MEDIA</h4>
-                <a href="https://www.facebook.com/SlavicMacrame" target="_blank" class="facebook">FACEBOOK</a>
-                <a href="https://www.linkedin.com/in/katarzyna-reszetko/" target="_blank" class="linkedin">LINKEDIN</a>
-                
+            <div class="footer-det col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+              <h4 class="social-media">SOCIAL MEDIA</h4>
+              <br><br>
+              <div class="media-links">
+                  <a class="link-social facebook" href="" target="_blank">
+                    <img src="photos/facebook.png" alt="facebook" />
+                  </a>
+                  <a class="link-social" href="" target="_blank">
+                    <img src="photos/instagram.png" alt="instagram" />
+                  </a>
+              </div>
             </div>   
         </div>
         <hr>
@@ -81,60 +115,7 @@
             </div>
         </div>
     </div>
-</footer>
+  </footer>
   <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
-
-
-
-
-<!-- <!DOCTYPE html>
-<html>
-  <head>
-    <title>Cafe Website</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="ourstyle.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
-    <style>
-      body, html {
-      height: 100%;
-      font-family: "Tangerine", serif;
-    }
-    .bgimg {
-      background-position: center;
-      background-size: cover;
-      background-image: url("https://modernrestaurantmanagement.com/assets/media/2019/11/Unsplash_Ciqxn7FE4vE-1200x655.jpg");
-      min-height: 75%;
-    }
-    
-  </style>  
-</head>
-<body>
-
-<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#menu">Menu</a></li>
-  <li><a href="#contact">Contact</a></li>
-</ul>
-  
-  
-  <header class="bgimg" id="home">
-  <div class="left">
-    <span class="tag">Open from 8am to 9pm</span>
-  </div>
-  <div class="name">
-    <span class="text">Our<br>Cafe</span>
-  </div>
-  <div class="right">
-    <span class="address">ul. Zaborska 141, Kraków</span>
-  </div>
-</header>
-
-
-<div class="background_color"></div>
-
-
-<footer class="footer">
-  <p><em>We are commited to maintaining the high quality of our coffee and the satisfaction of our customers.</em></p>
- </footer> -->
