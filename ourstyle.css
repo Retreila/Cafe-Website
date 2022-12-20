@@ -490,3 +490,8 @@ hr {
   padding-left: 0px;
   font-size: 18px;;
 }
+
+.menu-title {
+  text-align: center;
+  font-size: 34px;
+}
