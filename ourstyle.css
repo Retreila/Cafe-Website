@@ -492,7 +492,21 @@ hr {
 }
 
 .menu-title {
-  display:flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+}
+
+.menu-sections {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+}
+
+.drinks {
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 34px;
