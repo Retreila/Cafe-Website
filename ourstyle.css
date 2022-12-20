@@ -506,7 +506,6 @@ hr {
 }
 
 .drinks {
-  display: grid;
-  place-items: center;
+  text-align: center;
   font-size: 34px;
 }
