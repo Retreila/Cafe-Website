@@ -592,6 +592,7 @@ textarea#comment.form-control {
   justify-content: center;
   align-items: center;
   font-size: 34px;
+  text-align: center;
 }
 
 .menu-sections span {
