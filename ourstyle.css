@@ -612,16 +612,18 @@ textarea#comment.form-control {
 }
 
 .menu-button {
-  background-color: #f4511e;
+  background-color: #433434;
   border: none;
-  color: black;
+  color: #FEFEFE;
   padding: 16px 32px;
   text-align: center;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: auto;
   opacity: 0.6;
   transition: 0.3s;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
 }
+
+.menu-button:hover {opacity: 1}
