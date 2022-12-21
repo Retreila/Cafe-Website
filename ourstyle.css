@@ -625,7 +625,6 @@ textarea#comment.form-control {
 .menu-button {
   background-color: sienna;
   border: none;
-  color: black;
   padding: 16px 32px;
   text-align: center;
   font-size: 32px;
@@ -638,3 +637,12 @@ textarea#comment.form-control {
 }
 
 .menu-button:hover {opacity: 1}
+
+.menu-one-button {
+  color: black;
+  text-decoration: none;
+}
+
+.menu-one-button:hover {
+  color: black;
+}
