@@ -579,7 +579,7 @@ textarea#comment.form-control {
   border: 5px #1A0C13 solid;
   padding: 10px;
   padding-top: 0px;
-  margin-top: 20px;
+  margin:auto;
   text-align: center;
 }
 
