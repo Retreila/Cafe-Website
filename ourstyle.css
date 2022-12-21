@@ -576,7 +576,7 @@ textarea#comment.form-control {
   align-items: center;
   font-size: 42px;
   width: 40%;
-  border: 5px #1A0C13 solid;
+  border: 5px sienna solid;
   padding: 10px;
   margin: auto;
   margin-top: 10px;
@@ -611,6 +611,12 @@ textarea#comment.form-control {
   justify-content: center;
   align-items: center;
   font-size: 34px;
+  width: 20%;
+  border: 3px sienna solid;
+  padding: 5px;
+  margin: auto;
+  margin-top: 5px;
+  text-align: center;
 }
 
 .menu-button {
