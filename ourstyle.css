@@ -581,6 +581,7 @@ textarea#comment.form-control {
   padding-top: 0px;
   margin:auto;
   text-align: center;
+  top-margin: 20px;
 }
 
 .menu-sections {
