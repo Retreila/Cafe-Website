@@ -577,9 +577,10 @@ textarea#comment.form-control {
   font-size: 42px;
   width: 85%;
   border: 5px #1A0C13 solid;
-  padding: 15px;
+  padding: 10px;
   padding-top: 0px;
-  margin-top: 30px;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .menu-sections {
