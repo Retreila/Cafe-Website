@@ -598,6 +598,7 @@ textarea#comment.form-control {
 .menu-sections span {
   display: table-cell;
   text-align: center;
+  margin-bottom: 0px;
 }
 
 .drinks {
@@ -617,6 +618,7 @@ textarea#comment.form-control {
   padding: 5px;
   margin: auto;
   margin-top: 5px;
+  margin-bottom: 5px;
   text-align: center;
 }
 
